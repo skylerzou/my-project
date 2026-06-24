@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Other editors
+.idea/
+.vscode/
