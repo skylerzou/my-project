@@ -1,0 +1,705 @@
+{
+  "data": [
+    {
+      "id": "696f66d967063f37df821e7c",
+      "tcgPlayerId": "96392",
+      "setId": 1451,
+      "setName": "XY Promos",
+      "name": "Charizard EX - XY29",
+      "cardNumber": "XY29",
+      "totalSetNumber": null,
+      "rarity": "Promo",
+      "cardType": null,
+      "hp": "180",
+      "stage": "Basic",
+      "attacks": [
+        "[1] Stoke\r\n<br>Flip a coin. If heads, search your deck for up to 3 basic Energy cards and attach them to this Pokemon. Shuffle your deck afterward.",
+        "[3R] Fire Blast (120)\r\n<br>Discard an Energy attached to this Pokemon."
+      ],
+      "weakness": "Wx2",
+      "resistance": "None",
+      "retreatCost": "2",
+      "artist": "Eske Yoshinob",
+      "pokemonType": "Fire",
+      "energyType": [
+        "Fire"
+      ],
+      "flavorText": null,
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/96392",
+      "prices": {
+        "market": 19.6,
+        "low": 1.98,
+        "sellers": 93,
+        "listings": 0,
+        "primaryPrinting": "Holofoil",
+        "lastUpdated": "2026-06-28T04:37:37.163Z",
+        "variants": {
+          "Holofoil": {
+            "Near Mint Holofoil": {
+              "price": 19.6,
+              "listings": null,
+              "priceString": "$19.60",
+              "lastUpdated": "2026-06-28T19:49:55.221Z"
+            }
+          }
+        }
+      },
+      "imageCdnUrl": "https://tcgplayer-cdn.tcgplayer.com/product/96392_in_800x800.jpg",
+      "imageCdnUrl200": "https://tcgplayer-cdn.tcgplayer.com/product/96392_in_200x200.jpg",
+      "imageCdnUrl400": "https://tcgplayer-cdn.tcgplayer.com/product/96392_in_400x400.jpg",
+      "imageCdnUrl800": "https://tcgplayer-cdn.tcgplayer.com/product/96392_in_800x800.jpg",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/96392_in_200x200.jpg",
+      "needsDetailedScrape": false,
+      "dataCompleteness": "complete",
+      "lastScrapedAt": "2026-06-28T04:37:37.163Z",
+      "createdAt": "2026-01-20T11:28:25.467Z",
+      "updatedAt": "2026-06-28T04:37:41.003Z",
+      "variants": {
+        "Holofoil": {
+          "printing": "Holofoil",
+          "marketPrice": 19.6,
+          "lowPrice": 1.98,
+          "conditionUsed": "Near Mint Holofoil"
+        }
+      },
+      "printingsAvailable": [
+        "Holofoil"
+      ],
+      "externalCatalogId": "xyp-XY29"
+    },
+    {
+      "id": "696f66ac67063f37df821a1e",
+      "tcgPlayerId": "91614",
+      "setId": 1528,
+      "setName": "Jumbo Cards",
+      "name": "Charizard EX - XY17 (XY Black Star Promos)",
+      "cardNumber": "XY17",
+      "totalSetNumber": null,
+      "rarity": "Promo",
+      "cardType": null,
+      "hp": "180",
+      "stage": "Basic",
+      "attacks": [
+        "[1R] Mega Ascension\r\n<br>Search your deck for a M Charizard-EX, reveal it, and put it into your hand. Shuffle your deck afterward.",
+        "[3R] Brave Fire (120)\r\n<br>This Pok\u00e9mon does 30 damage to itself."
+      ],
+      "weakness": "Wx2",
+      "resistance": null,
+      "retreatCost": "3",
+      "artist": "5ban Graphics",
+      "pokemonType": "Fire",
+      "energyType": [
+        "Fire"
+      ],
+      "flavorText": null,
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/91614",
+      "prices": {
+        "market": 15.68,
+        "low": 6.99,
+        "sellers": 17,
+        "listings": 0,
+        "primaryPrinting": "Holofoil",
+        "lastUpdated": "2026-06-28T04:37:26.769Z",
+        "variants": {
+          "Holofoil": {
+            "Near Mint Holofoil": {
+              "price": 15.68,
+              "listings": null,
+              "priceString": "$15.68",
+              "lastUpdated": "2026-06-28T19:49:55.221Z"
+            }
+          }
+        }
+      },
+      "imageCdnUrl": "https://tcgplayer-cdn.tcgplayer.com/product/91614_in_800x800.jpg",
+      "imageCdnUrl200": "https://tcgplayer-cdn.tcgplayer.com/product/91614_in_200x200.jpg",
+      "imageCdnUrl400": "https://tcgplayer-cdn.tcgplayer.com/product/91614_in_400x400.jpg",
+      "imageCdnUrl800": "https://tcgplayer-cdn.tcgplayer.com/product/91614_in_800x800.jpg",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/91614_in_200x200.jpg",
+      "needsDetailedScrape": false,
+      "dataCompleteness": "complete",
+      "lastScrapedAt": "2026-06-28T04:37:26.769Z",
+      "createdAt": "2026-01-20T11:27:40.000Z",
+      "updatedAt": "2026-06-28T04:37:30.513Z",
+      "variants": {
+        "Holofoil": {
+          "printing": "Holofoil",
+          "marketPrice": 15.68,
+          "lowPrice": 6.99,
+          "conditionUsed": "Near Mint Holofoil"
+        }
+      },
+      "printingsAvailable": [
+        "Holofoil"
+      ],
+      "externalCatalogId": null
+    },
+    {
+      "id": "696f66d967063f37df821e7b",
+      "tcgPlayerId": "96379",
+      "setId": 1451,
+      "setName": "XY Promos",
+      "name": "Charizard EX - XY17",
+      "cardNumber": "XY17",
+      "totalSetNumber": null,
+      "rarity": "Promo",
+      "cardType": null,
+      "hp": "180",
+      "stage": "Basic",
+      "attacks": [
+        "[1R] Mega Ascension\r\n<br>Search your deck for M Charizard-EX, reveal it, and put it into your hand. Shuffle your deck afterward.",
+        "[3R] Brave Fire (120)\r\n<br>This Pokemon does 30 damage to itself."
+      ],
+      "weakness": "Wx2",
+      "resistance": "None",
+      "retreatCost": "3",
+      "artist": "5ban Graphics",
+      "pokemonType": "Fire",
+      "energyType": [
+        "Fire"
+      ],
+      "flavorText": null,
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/96379",
+      "prices": {
+        "market": 35.34,
+        "low": 3.7,
+        "sellers": 93,
+        "listings": 0,
+        "primaryPrinting": "Holofoil",
+        "lastUpdated": "2026-06-28T04:37:37.163Z",
+        "variants": {
+          "Holofoil": {
+            "Near Mint Holofoil": {
+              "price": 35.34,
+              "listings": null,
+              "priceString": "$35.34",
+              "lastUpdated": "2026-06-28T19:49:55.221Z"
+            }
+          }
+        }
+      },
+      "imageCdnUrl": "https://tcgplayer-cdn.tcgplayer.com/product/96379_in_800x800.jpg",
+      "imageCdnUrl200": "https://tcgplayer-cdn.tcgplayer.com/product/96379_in_200x200.jpg",
+      "imageCdnUrl400": "https://tcgplayer-cdn.tcgplayer.com/product/96379_in_400x400.jpg",
+      "imageCdnUrl800": "https://tcgplayer-cdn.tcgplayer.com/product/96379_in_800x800.jpg",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/96379_in_200x200.jpg",
+      "needsDetailedScrape": false,
+      "dataCompleteness": "complete",
+      "lastScrapedAt": "2026-06-28T04:37:37.163Z",
+      "createdAt": "2026-01-20T11:28:25.427Z",
+      "updatedAt": "2026-06-28T04:37:40.953Z",
+      "variants": {
+        "Holofoil": {
+          "printing": "Holofoil",
+          "marketPrice": 35.34,
+          "lowPrice": 3.7,
+          "conditionUsed": "Near Mint Holofoil"
+        }
+      },
+      "printingsAvailable": [
+        "Holofoil"
+      ],
+      "externalCatalogId": "xyp-XY17"
+    },
+    {
+      "id": "696f66d967063f37df821e7a",
+      "tcgPlayerId": "117267",
+      "setId": 1451,
+      "setName": "XY Promos",
+      "name": "Charizard EX - XY121",
+      "cardNumber": "XY121",
+      "totalSetNumber": null,
+      "rarity": "Promo",
+      "cardType": null,
+      "hp": "180",
+      "stage": "Basic",
+      "attacks": [
+        "[3] Wing Attack (60)",
+        "[2RR] Combustion Blast (150)\r\n<br>This Pokemon can't use Combustion Blast during your next turn."
+      ],
+      "weakness": "Wx2",
+      "resistance": "None",
+      "retreatCost": "2",
+      "artist": null,
+      "pokemonType": "Fire",
+      "energyType": [
+        "Fire"
+      ],
+      "flavorText": null,
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/117267",
+      "prices": {
+        "market": 171.2,
+        "low": 34.79,
+        "sellers": 85,
+        "listings": 0,
+        "primaryPrinting": "Holofoil",
+        "lastUpdated": "2026-06-28T04:37:37.163Z",
+        "variants": {
+          "Holofoil": {
+            "Near Mint Holofoil": {
+              "price": 171.2,
+              "listings": null,
+              "priceString": "$171.20",
+              "lastUpdated": "2026-06-28T19:49:55.221Z"
+            }
+          }
+        }
+      },
+      "imageCdnUrl": "https://tcgplayer-cdn.tcgplayer.com/product/117267_in_800x800.jpg",
+      "imageCdnUrl200": "https://tcgplayer-cdn.tcgplayer.com/product/117267_in_200x200.jpg",
+      "imageCdnUrl400": "https://tcgplayer-cdn.tcgplayer.com/product/117267_in_400x400.jpg",
+      "imageCdnUrl800": "https://tcgplayer-cdn.tcgplayer.com/product/117267_in_800x800.jpg",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/117267_in_200x200.jpg",
+      "needsDetailedScrape": false,
+      "dataCompleteness": "complete",
+      "lastScrapedAt": "2026-06-28T04:37:37.163Z",
+      "createdAt": "2026-01-20T11:28:25.392Z",
+      "updatedAt": "2026-06-28T04:37:40.905Z",
+      "variants": {
+        "Holofoil": {
+          "printing": "Holofoil",
+          "marketPrice": 171.2,
+          "lowPrice": 34.79,
+          "conditionUsed": "Near Mint Holofoil"
+        }
+      },
+      "printingsAvailable": [
+        "Holofoil"
+      ],
+      "externalCatalogId": "xyp-XY121"
+    },
+    {
+      "id": "696f66ab67063f37df821a1d",
+      "tcgPlayerId": "211422",
+      "setId": 1528,
+      "setName": "Jumbo Cards",
+      "name": "Charizard EX - XY121 (XY Black Star Promos)",
+      "cardNumber": "XY121",
+      "totalSetNumber": null,
+      "rarity": "Promo",
+      "cardType": null,
+      "hp": "180",
+      "stage": "Basic",
+      "attacks": [
+        "[3] Wing Attack (60)",
+        "[2RR] Combustion Blast (150)\r\n<br>\r\nThis Pok\u00e9mon can't use Combustion Blast during your next turn."
+      ],
+      "weakness": "Wx2",
+      "resistance": null,
+      "retreatCost": "2",
+      "artist": "Kouki Saitou",
+      "pokemonType": "Fire",
+      "energyType": [
+        "Fire"
+      ],
+      "flavorText": null,
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/211422",
+      "prices": {
+        "market": 94.97,
+        "low": 369.63,
+        "sellers": 0,
+        "listings": 0,
+        "primaryPrinting": "Holofoil",
+        "lastUpdated": "2026-06-28T04:37:26.769Z",
+        "variants": {
+          "Holofoil": {
+            "Near Mint Holofoil": {
+              "price": 94.97,
+              "listings": null,
+              "priceString": "$94.97",
+              "lastUpdated": "2026-06-28T19:49:55.221Z"
+            }
+          }
+        }
+      },
+      "imageCdnUrl": "https://tcgplayer-cdn.tcgplayer.com/product/211422_in_800x800.jpg",
+      "imageCdnUrl200": "https://tcgplayer-cdn.tcgplayer.com/product/211422_in_200x200.jpg",
+      "imageCdnUrl400": "https://tcgplayer-cdn.tcgplayer.com/product/211422_in_400x400.jpg",
+      "imageCdnUrl800": "https://tcgplayer-cdn.tcgplayer.com/product/211422_in_800x800.jpg",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/211422_in_200x200.jpg",
+      "needsDetailedScrape": false,
+      "dataCompleteness": "complete",
+      "lastScrapedAt": "2026-06-28T04:37:26.769Z",
+      "createdAt": "2026-01-20T11:27:39.964Z",
+      "updatedAt": "2026-06-28T04:37:30.467Z",
+      "variants": {
+        "Holofoil": {
+          "printing": "Holofoil",
+          "marketPrice": 94.97,
+          "lowPrice": 369.63,
+          "conditionUsed": "Near Mint Holofoil"
+        }
+      },
+      "printingsAvailable": [
+        "Holofoil"
+      ],
+      "externalCatalogId": null
+    },
+    {
+      "id": "696f64e767063f37df81ed77",
+      "tcgPlayerId": "284251",
+      "setId": 3172,
+      "setName": "SWSH11: Lost Origin Trainer Gallery",
+      "name": "Charizard",
+      "cardNumber": "TG03/TG30",
+      "totalSetNumber": null,
+      "rarity": "Ultra Rare",
+      "cardType": null,
+      "hp": "170",
+      "stage": "Stage 2",
+      "attacks": [
+        "[RR] Royal Blaze (100+)\r\n<br>This attack does 50 more damage for each Leon in your discard pile."
+      ],
+      "weakness": "Wx2",
+      "resistance": "None",
+      "retreatCost": "3",
+      "artist": "GIDORA",
+      "pokemonType": "Fire",
+      "energyType": [
+        "Fire"
+      ],
+      "flavorText": null,
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/284251",
+      "prices": {
+        "market": 35.72,
+        "low": 18.99,
+        "sellers": 178,
+        "listings": 0,
+        "primaryPrinting": "Holofoil",
+        "lastUpdated": "2026-06-28T04:35:56.079Z",
+        "variants": {
+          "Holofoil": {
+            "Near Mint Holofoil": {
+              "price": 35.72,
+              "listings": null,
+              "priceString": "$35.72",
+              "lastUpdated": "2026-06-28T19:49:55.222Z"
+            }
+          }
+        }
+      },
+      "imageCdnUrl": "https://tcgplayer-cdn.tcgplayer.com/product/284251_in_800x800.jpg",
+      "imageCdnUrl200": "https://tcgplayer-cdn.tcgplayer.com/product/284251_in_200x200.jpg",
+      "imageCdnUrl400": "https://tcgplayer-cdn.tcgplayer.com/product/284251_in_400x400.jpg",
+      "imageCdnUrl800": "https://tcgplayer-cdn.tcgplayer.com/product/284251_in_800x800.jpg",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/284251_in_200x200.jpg",
+      "needsDetailedScrape": false,
+      "dataCompleteness": "complete",
+      "lastScrapedAt": "2026-06-28T04:35:56.079Z",
+      "createdAt": "2026-01-20T11:20:07.769Z",
+      "updatedAt": "2026-06-28T04:35:57.781Z",
+      "variants": {
+        "Holofoil": {
+          "printing": "Holofoil",
+          "marketPrice": 35.72,
+          "lowPrice": 18.99,
+          "conditionUsed": "Near Mint Holofoil"
+        }
+      },
+      "printingsAvailable": [
+        "Holofoil"
+      ],
+      "externalCatalogId": "swsh11-TG03"
+    },
+    {
+      "id": "696f656967063f37df81fa0f",
+      "tcgPlayerId": "285396",
+      "setId": 2545,
+      "setName": "SWSH: Sword & Shield Promo Cards",
+      "name": "Charizard VSTAR - SWSH262",
+      "cardNumber": "SWSH262",
+      "totalSetNumber": null,
+      "rarity": "Promo",
+      "cardType": null,
+      "hp": "280",
+      "stage": "VSTAR",
+      "attacks": [
+        "[1RR] Explosive Fire (130+)\r\n<br>\r\nIf this Pok\u00e9mon has any damage counters on it, this attack does 100 more damage."
+      ],
+      "weakness": "Wx2",
+      "resistance": null,
+      "retreatCost": "2",
+      "artist": "KIYOTAKA OSHIYAMA",
+      "pokemonType": "Fire",
+      "energyType": [
+        "Fire"
+      ],
+      "flavorText": null,
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/285396",
+      "prices": {
+        "market": 84.8,
+        "low": 38.14,
+        "sellers": 102,
+        "listings": 0,
+        "primaryPrinting": "Holofoil",
+        "lastUpdated": "2026-06-28T04:36:32.582Z",
+        "variants": {
+          "Holofoil": {
+            "Near Mint Holofoil": {
+              "price": 84.8,
+              "listings": null,
+              "priceString": "$84.80",
+              "lastUpdated": "2026-06-28T19:49:55.222Z"
+            }
+          }
+        }
+      },
+      "imageCdnUrl": "https://tcgplayer-cdn.tcgplayer.com/product/285396_in_800x800.jpg",
+      "imageCdnUrl200": "https://tcgplayer-cdn.tcgplayer.com/product/285396_in_200x200.jpg",
+      "imageCdnUrl400": "https://tcgplayer-cdn.tcgplayer.com/product/285396_in_400x400.jpg",
+      "imageCdnUrl800": "https://tcgplayer-cdn.tcgplayer.com/product/285396_in_800x800.jpg",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/285396_in_200x200.jpg",
+      "needsDetailedScrape": false,
+      "dataCompleteness": "complete",
+      "lastScrapedAt": "2026-06-28T04:36:32.582Z",
+      "createdAt": "2026-01-20T11:22:17.921Z",
+      "updatedAt": "2026-06-28T04:36:36.689Z",
+      "variants": {
+        "Holofoil": {
+          "printing": "Holofoil",
+          "marketPrice": 84.8,
+          "lowPrice": 38.14,
+          "conditionUsed": "Near Mint Holofoil"
+        }
+      },
+      "printingsAvailable": [
+        "Holofoil"
+      ],
+      "externalCatalogId": "swshp-SWSH262"
+    },
+    {
+      "id": "696f656967063f37df81fa0e",
+      "tcgPlayerId": "285378",
+      "setId": 2545,
+      "setName": "SWSH: Sword & Shield Promo Cards",
+      "name": "Charizard VMAX - SWSH261",
+      "cardNumber": "SWSH261",
+      "totalSetNumber": null,
+      "rarity": "Promo",
+      "cardType": null,
+      "hp": "330",
+      "stage": "VMAX",
+      "attacks": [
+        "[3] Claw Slash (100)",
+        "[2RRR] G-Max Wildfire (300)\r\n<br>Discard 2 Energy from this Pok\u00e9mon."
+      ],
+      "weakness": "Wx2",
+      "resistance": null,
+      "retreatCost": "3",
+      "artist": "Shiburingaru",
+      "pokemonType": "Fire",
+      "energyType": [
+        "Fire"
+      ],
+      "flavorText": null,
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/285378",
+      "prices": {
+        "market": 45.99,
+        "low": 24.99,
+        "sellers": 154,
+        "listings": 0,
+        "primaryPrinting": "Holofoil",
+        "lastUpdated": "2026-06-28T04:36:32.582Z",
+        "variants": {
+          "Holofoil": {
+            "Near Mint Holofoil": {
+              "price": 45.99,
+              "listings": null,
+              "priceString": "$45.99",
+              "lastUpdated": "2026-06-28T19:49:55.222Z"
+            }
+          }
+        }
+      },
+      "imageCdnUrl": "https://tcgplayer-cdn.tcgplayer.com/product/285378_in_800x800.jpg",
+      "imageCdnUrl200": "https://tcgplayer-cdn.tcgplayer.com/product/285378_in_200x200.jpg",
+      "imageCdnUrl400": "https://tcgplayer-cdn.tcgplayer.com/product/285378_in_400x400.jpg",
+      "imageCdnUrl800": "https://tcgplayer-cdn.tcgplayer.com/product/285378_in_800x800.jpg",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/285378_in_200x200.jpg",
+      "needsDetailedScrape": false,
+      "dataCompleteness": "complete",
+      "lastScrapedAt": "2026-06-28T04:36:32.582Z",
+      "createdAt": "2026-01-20T11:22:17.883Z",
+      "updatedAt": "2026-06-28T04:36:36.642Z",
+      "variants": {
+        "Holofoil": {
+          "printing": "Holofoil",
+          "marketPrice": 45.99,
+          "lowPrice": 24.99,
+          "conditionUsed": "Near Mint Holofoil"
+        }
+      },
+      "printingsAvailable": [
+        "Holofoil"
+      ],
+      "externalCatalogId": "swshp-SWSH261"
+    },
+    {
+      "id": "696f656967063f37df81fa0d",
+      "tcgPlayerId": "285384",
+      "setId": 2545,
+      "setName": "SWSH: Sword & Shield Promo Cards",
+      "name": "Charizard V - SWSH260",
+      "cardNumber": "SWSH260",
+      "totalSetNumber": null,
+      "rarity": "Promo",
+      "cardType": null,
+      "hp": "220",
+      "stage": "Basic",
+      "attacks": [
+        "[1RR] Incinerate (90)\r\n<br>\r\nBefore doing damage, discard all Pok\u00e9mon Tools from your opponent's Active Pok\u00e9mon.",
+        "[1RRR] Heat Blast (180)"
+      ],
+      "weakness": "Wx2",
+      "resistance": null,
+      "retreatCost": "2",
+      "artist": "Oswaldo KATO",
+      "pokemonType": "Fire",
+      "energyType": [
+        "Fire"
+      ],
+      "flavorText": null,
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/285384",
+      "prices": {
+        "market": 60.18,
+        "low": 28.88,
+        "sellers": 159,
+        "listings": 0,
+        "primaryPrinting": "Holofoil",
+        "lastUpdated": "2026-06-28T04:36:32.582Z",
+        "variants": {
+          "Holofoil": {
+            "Near Mint Holofoil": {
+              "price": 60.18,
+              "listings": null,
+              "priceString": "$60.18",
+              "lastUpdated": "2026-06-28T19:49:55.222Z"
+            }
+          }
+        }
+      },
+      "imageCdnUrl": "https://tcgplayer-cdn.tcgplayer.com/product/285384_in_800x800.jpg",
+      "imageCdnUrl200": "https://tcgplayer-cdn.tcgplayer.com/product/285384_in_200x200.jpg",
+      "imageCdnUrl400": "https://tcgplayer-cdn.tcgplayer.com/product/285384_in_400x400.jpg",
+      "imageCdnUrl800": "https://tcgplayer-cdn.tcgplayer.com/product/285384_in_800x800.jpg",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/285384_in_200x200.jpg",
+      "needsDetailedScrape": false,
+      "dataCompleteness": "complete",
+      "lastScrapedAt": "2026-06-28T04:36:32.582Z",
+      "createdAt": "2026-01-20T11:22:17.840Z",
+      "updatedAt": "2026-06-28T04:36:36.599Z",
+      "variants": {
+        "Holofoil": {
+          "printing": "Holofoil",
+          "marketPrice": 60.18,
+          "lowPrice": 28.88,
+          "conditionUsed": "Near Mint Holofoil"
+        }
+      },
+      "printingsAvailable": [
+        "Holofoil"
+      ],
+      "externalCatalogId": "swshp-SWSH260"
+    },
+    {
+      "id": "696f66af67063f37df821a7c",
+      "tcgPlayerId": "251104",
+      "setId": 1528,
+      "setName": "Jumbo Cards",
+      "name": "Lance's Charizard V - SWSH133",
+      "cardNumber": "SWSH133",
+      "totalSetNumber": null,
+      "rarity": "Promo",
+      "cardType": null,
+      "hp": "220",
+      "stage": "Basic",
+      "attacks": [
+        "[1RR] Flamethrower (200)\r\n<br>Discard an Energy from this Pok\u00e9mon."
+      ],
+      "weakness": "Wx2",
+      "resistance": null,
+      "retreatCost": "3",
+      "artist": "Hideki Ishikawa",
+      "pokemonType": "Fire",
+      "energyType": [
+        "Fire"
+      ],
+      "flavorText": null,
+      "tcgPlayerUrl": "https://www.tcgplayer.com/product/251104",
+      "prices": {
+        "market": 3.74,
+        "low": 1.5,
+        "sellers": 93,
+        "listings": 0,
+        "primaryPrinting": "Holofoil",
+        "lastUpdated": "2026-06-28T04:37:26.769Z",
+        "variants": {
+          "Holofoil": {
+            "Near Mint Holofoil": {
+              "price": 3.74,
+              "listings": null,
+              "priceString": "$3.74",
+              "lastUpdated": "2026-06-28T19:49:55.222Z"
+            }
+          }
+        }
+      },
+      "imageCdnUrl": "https://tcgplayer-cdn.tcgplayer.com/product/251104_in_800x800.jpg",
+      "imageCdnUrl200": "https://tcgplayer-cdn.tcgplayer.com/product/251104_in_200x200.jpg",
+      "imageCdnUrl400": "https://tcgplayer-cdn.tcgplayer.com/product/251104_in_400x400.jpg",
+      "imageCdnUrl800": "https://tcgplayer-cdn.tcgplayer.com/product/251104_in_800x800.jpg",
+      "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/251104_in_200x200.jpg",
+      "needsDetailedScrape": false,
+      "dataCompleteness": "complete",
+      "lastScrapedAt": "2026-06-28T04:37:26.769Z",
+      "createdAt": "2026-01-20T11:27:43.477Z",
+      "updatedAt": "2026-06-28T04:37:34.969Z",
+      "variants": {
+        "Holofoil": {
+          "printing": "Holofoil",
+          "marketPrice": 3.74,
+          "lowPrice": 1.5,
+          "conditionUsed": "Near Mint Holofoil"
+        }
+      },
+      "printingsAvailable": [
+        "Holofoil"
+      ],
+      "externalCatalogId": null
+    }
+  ],
+  "metadata": {
+    "total": 237,
+    "count": 10,
+    "limit": 10,
+    "offset": 0,
+    "hasMore": true,
+    "language": "english",
+    "includes": {
+      "priceHistory": false,
+      "ebayData": false,
+      "cardmarketData": false
+    },
+    "historyWindow": {
+      "days": 3,
+      "from": "2026-06-25",
+      "to": "2026-06-28",
+      "maxDataPoints": 30,
+      "granularityNote": "Data points limited to 30. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+    },
+    "apiCallsConsumed": {
+      "total": 10,
+      "breakdown": {
+        "cards": 10,
+        "history": 0,
+        "ebay": 0
+      },
+      "costPerCard": 1
+    },
+    "planRestrictions": {
+      "message": "Free plan limited to 3 days of historical data. Upgrade to API plan for full history access.",
+      "limitedTo": "3 days",
+      "maxDataPoints": 30
+    }
+  }
+}
