@@ -1,21 +1,18 @@
-import requests, json, os
-from dotenv import load_dotenv
+import pandas as pd
+import torch
+import torch.nn as nn
 
-load_dotenv()
 
-# 1. Call API
-response = requests.get(
-    "https://www.pokemonpricetracker.com/api/v2/cards",
-    headers={"Authorization": f"Bearer {os.getenv('PPT_API_KEY')}"},
-    params={"search": "Charizard", "limit": 10}
+DATA_PATH = "/Users/Skyler/Downloads/day.csv"
+df = pd.read_csv(DATA_PATH)
+truthdf= df[['cnt']]
+df.drop(['casual', 'registered','yr','cnt'], axis = 1, inplace = True) #casual and registered are splits of count: perfect predictions,
+traindf = df[(df['instant'] >= 152) & (df['instant'] < 273)] #273 is oct 1, 152 is june 1
+df.drop(['instant', 'dteday'], axis = 1, inplace = True) #monotonic increase poison
+
+encoded_df = pd.get_dummies(
+    df,
+    columns=['season', 'mnth', 'weathersit', 'weekday'],
+    drop_first=True
 )
-
-# 2. Parse
-data = response.json()
-
-# 3. Save immediately
-with open("response.json", "w") as f:
-    json.dump(data, f, indent=2)
-
-# 4. Pretty print
-print(json.dumps(data, indent=2))
+print(encoded_df)
