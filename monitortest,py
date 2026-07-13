@@ -1,0 +1,130 @@
+from monitor import psi, ks
+import numpy as np
+
+
+PSI_THRESHOLD = 0.2  
+KS_D_THRESHOLD = 0.15 
+
+def get_stat(result):
+    return result['statistic_value']
+
+
+# ---------- CASE CLASS 1: NULL (no drift) ----------
+
+def test_psi_null():
+    np.random.seed(42)
+    probs = [0.25, 0.25, 0.25, 0.25]
+    categories = [0, 1, 2, 3]
+    reference = np.random.choice(categories, size=1000, p=probs)
+    batch = np.random.choice(categories, size=300, p=probs)
+    psi_value = get_stat(psi(reference, batch, 4))
+    assert psi_value < PSI_THRESHOLD, f"expected no-drift band (<0.1), got {psi_value}"
+    print(f"PSI null: {psi_value:.4f} — PASS")
+
+def test_ks_null():
+    np.random.seed(42)
+    reference = np.random.normal(loc=0.5, scale=0.15, size=1000)
+    batch = np.random.normal(loc=0.5, scale=0.15, size=300)
+    d = get_stat(ks(reference, batch))
+    assert d < KS_D_THRESHOLD, f"null should not flag, got D={d}"
+    print(f"KS null: D={d:.4f} — PASS")
+
+
+# ---------- CASE CLASS 2: TRUE DRIFT ----------
+
+def test_psi_drift():
+    np.random.seed(42)
+    categories = [0, 1, 2, 3]
+    reference = np.random.choice(categories, size=1000, p=[0.25, 0.25, 0.25, 0.25])
+    batch = np.random.choice(categories, size=300, p=[0.05, 0.05, 0.60, 0.30])
+    psi_value = get_stat(psi(reference, batch, 4))
+    assert psi_value > PSI_THRESHOLD, f"drift should flag, got PSI={psi_value}"
+    print(f"PSI drift: {psi_value:.4f} — PASS")
+
+def test_ks_drift():
+    np.random.seed(42)
+    reference = np.random.normal(loc=0.5, scale=0.15, size=1000)
+    batch = np.random.normal(loc=0.15, scale=0.15, size=300)  # ~0.35 shift, matches Day 1 oracle
+    d = get_stat(ks(reference, batch))
+    assert d > KS_D_THRESHOLD, f"drift should flag, got D={d}"
+    print(f"KS drift: D={d:.4f} — PASS")
+
+
+# ---------- CASE CLASS 3: EDGE CASES ----------
+
+def test_psi_missing_category():
+    np.random.seed(42)
+    categories = [0, 1, 2, 3]
+    reference = np.random.choice(categories, size=1000, p=[0.25, 0.25, 0.25, 0.25])
+    batch = np.random.choice(categories, size=300, p=[0, 0.5, 0.25, 0.25])
+    psi_value = get_stat(psi(reference, batch, 4))
+    assert np.isfinite(psi_value), f"expected finite value, got {psi_value}"
+    assert psi_value > PSI_THRESHOLD, f"missing category should flag as drift, got {psi_value}"
+    print(f"PSI missing category: {psi_value:.4f} — PASS")
+
+def test_psi_tiny_batch():
+    np.random.seed(42)
+    categories = [0, 1, 2, 3]
+    reference = np.random.choice(categories, size=1000, p=[0.25, 0.25, 0.25, 0.25])
+    batch = np.random.choice(categories, size=3, p=[0.25, 0.25, 0.25, 0.25])
+    psi_value = get_stat(psi(reference, batch, 4))
+    assert np.isfinite(psi_value), f"expected finite value even at tiny n, got {psi_value}"
+    print(f"PSI tiny batch (n=3): {psi_value:.4f} — finite, no crash. "
+          f"NOTE: magnitude not meaningful at this n.")
+
+def test_psi_all_one_category():
+    np.random.seed(42)
+    categories = [0, 1, 2, 3]
+    reference = np.random.choice(categories, size=1000, p=[0.25, 0.25, 0.25, 0.25])
+    batch = np.full(50, 2)
+    psi_value = get_stat(psi(reference, batch, 4))
+    assert np.isfinite(psi_value), f"expected finite value, got {psi_value}"
+    assert psi_value > PSI_THRESHOLD, f"all-one-category should flag as severe drift, got {psi_value}"
+    print(f"PSI all-one-category: {psi_value:.4f} — PASS")
+
+def test_ks_tiny_batch():
+    np.random.seed(42)
+    reference = np.random.normal(loc=0.5, scale=0.15, size=1000)
+    batch = np.random.normal(loc=0.5, scale=0.15, size=3)
+    d = get_stat(ks(reference, batch))
+    assert np.isfinite(d), f"expected finite D-statistic even at tiny n, got {d}"
+    print(f"KS tiny batch (n=3): D={d:.4f} — finite, no crash. "
+          f"NOTE: magnitude unreliable at this n.")
+
+def test_ks_degenerate_batch():
+    np.random.seed(42)
+    reference = np.random.normal(loc=0.5, scale=0.15, size=1000)
+    batch_median = np.full(10, 0.5)
+    batch_outside = np.full(10, 2.0)
+    d_median = get_stat(ks(reference, batch_median))
+    d_outside = get_stat(ks(reference, batch_outside))
+    assert np.isclose(d_median, 0.5, atol=0.05), f"expected D≈0.5, got {d_median}"
+    assert np.isclose(d_outside, 1.0, atol=0.01), f"expected D≈1.0, got {d_outside}"
+    print(f"KS degenerate batch: median={d_median:.4f} PASS, outside={d_outside:.4f} PASS")
+
+def test_ks_degenerate_reference():
+    np.random.seed(42)
+    reference = np.full(1000, 0.5)
+    batch_same = np.full(10, 0.5)
+    batch_diff = np.full(10, 2.0)
+    d_same = get_stat(ks(reference, batch_same))
+    d_diff = get_stat(ks(reference, batch_diff))
+    assert np.isclose(d_same, 0.0, atol=0.01), f"expected D≈0, got {d_same}"
+    assert np.isclose(d_diff, 1.0, atol=0.01), f"expected D≈1, got {d_diff}"
+    print(f"KS degenerate reference: same={d_same:.4f} PASS, diff={d_diff:.4f} PASS")
+
+
+# ---------- RUN ALL ----------
+
+if __name__ == "__main__":
+    test_psi_null()
+    test_ks_null()
+    test_psi_drift()
+    test_ks_drift()
+    test_psi_missing_category()
+    test_psi_tiny_batch()
+    test_psi_all_one_category()
+    test_ks_tiny_batch()
+    test_ks_degenerate_batch()
+    test_ks_degenerate_reference()
+    print("\nAll day 5 tests passed.")
