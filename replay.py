@@ -49,5 +49,3 @@ successes = sum(1 for entry in log if entry["status"] == 200)
 assert postcount - precount == successes, f"DB grew by {postcount-precount}, expected {successes}"
 assert len(log) == len(test), f"logged {len(log)} entries, expected {len(test)}"
 pd.DataFrame(log).to_csv("log.csv", index=False)
-
-print(precount, postcount, postcount - precount, successes, len(log))

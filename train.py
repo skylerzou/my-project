@@ -29,5 +29,3 @@ rmse = np.sqrt(mean_squared_error(testtruth, preds))
 r2 = r2_score(testtruth, preds)
 
 #model.save_model('projectboost1.json')
-print(traindf)
-

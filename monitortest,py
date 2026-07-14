@@ -127,4 +127,4 @@ if __name__ == "__main__":
     test_ks_tiny_batch()
     test_ks_degenerate_batch()
     test_ks_degenerate_reference()
-    print("\nAll day 5 tests passed.")
+    print("\nAll tests passed.") 
